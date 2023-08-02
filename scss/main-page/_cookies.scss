@@ -1,0 +1,372 @@
+.cookies-hero {
+  margin-top: 100px;
+}
+.container {
+}
+.cookies-inner {
+}
+.cookies-title {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #fef223;
+  max-width: 1300px;
+}
+.cookie{
+  margin-right: -30px;
+display: inline-block;
+position: relative;
+top: 45px;
+}
+.cookies-info {
+  margin-top: 100px;
+}
+.cookies-info-inner {
+}
+.cookies-info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+height: 100%;
+
+}
+
+.cookies-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.cookie-title {
+  // height: 252px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  background-color: #fef223;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cookies-right {
+  width: 60%;
+  border: 1px solid #fef223;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cookie-info {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  max-width: 600px;
+  width: 100%;
+}
+.cookies-more {
+}
+.cookies-more-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 0;
+}
+.cookies-more-link {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.cookies-colored {
+  font-family: 'DM Serif Display';
+  color: #fef223;
+}
+.cookies-info-box{
+background-color: #fef223;
+height: 100%;
+}
+.background-colored{
+  background-color: #161a20;
+}
+.second-cookie {
+  .cookies-left {
+    width: 50%;
+    border: 1px solid #fef223;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cookies-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cookie-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // height: 136px;
+    text-align: center;
+  }
+}
+.third-cookie {
+  .cookies-right {
+    width: 53%;
+  background-color: #161a20;
+
+  }
+  .cookies-left {
+    width: 47%;
+  }
+  .cookie-title {
+    // height: 649px;
+  }
+}
+@media (max-width: 1300px) {
+  .cookies-title {
+    font-size: 115px;
+    span {
+    }
+  }
+  .cookie-title {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1220px) {
+  .cookies-title {
+    font-size: 100px;
+  }
+  .cookie-title {
+    font-size: 30px;
+  }
+  .second-cookie {
+    .cookie-title {
+      // height: 155px;
+    }
+  }
+  .cookie-info{
+    font-size: 14px;
+    line-height: 16px;
+  }
+    .cookie-title {
+      // height: 206px;
+    }
+  .second-cookie {
+    .cookie-title {
+      // height: 125px;
+    }
+  }
+  .third-cookie {
+    .cookie-title {
+      // height: 510px;
+    }
+  }
+  .cookies-more-link{
+  font-size: 35px;
+  }
+}
+@media (max-width: 1128px) {
+  .third-cookie {
+    .cookie-title {
+      // height: 525px;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .third-cookie {
+    margin-top: -2px;
+    flex-direction: column;
+    border: 30px solid #fef223;
+    .cookies-left,.cookies-right{
+      width: 101%;
+    }
+    .cookie-title {
+      margin-top: -5px;
+      // height: 100px;
+    }
+    p{
+    max-width: 1020px;
+    width: 100%;
+    }
+
+  }
+  .cookies-left,.cookies-right{
+  border: 5px solid #fef223;
+  }
+}
+@media (max-width: 1087px) {
+  .second-cookie {
+    .cookie-title {
+      // height: 141px;
+    }
+  }
+  .cookies-more-link{
+    font-size: 30px;
+    }
+}
+@media (max-width: 1000px) {
+  .cookies-title {
+    font-size: 90px;
+    span{
+    margin-right: -20px;
+    top: 25px;
+    width: 110px;
+    height: 110px;
+    }
+  }
+  .cookie-title {
+    // font-size: 30px;
+  }
+  .second-cookie {
+    .cookie-title {
+      // height: 155px;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .br{
+  display: none;
+  }
+  .cookies-title {
+    font-size: 80px;
+    text-align: center;
+    max-width: 610px;
+    margin: 0 auto;
+    span{
+    margin-right: -20px;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    }
+  }
+  .cookies-more-link{
+    font-size: 25px;
+    }
+}
+@media (max-width: 950px) {
+  .cookie-title{
+  font-size: 25px;
+  // height: 164px;
+  }
+  .cookie-info{
+  padding: 10px;
+  }
+  .second-cookie{
+  .cookie-title{
+  // height: 92px;
+  }
+  }
+}
+@media (max-width: 882px) {
+  .cookies-more-link{
+    font-size: 20px;
+    // font-size: 30px;
+    }
+}
+@media (max-width: 700px) {
+  .cookies-title {
+    font-size: 75px;
+    span{
+    margin-right: -20px;
+    top: 25px;
+  }
+}}
+@media (max-width: 660px) {
+  .cookies-title {
+    font-size: 70px;
+    span{
+    margin-right: -20px;
+    top: 25px;
+  }
+}
+.cookies-info-box{
+flex-direction: column;
+border: 5px solid #fef223;
+.cookies-left,.cookies-right{
+  width: 100%;
+}
+}
+.second-cookie{
+.cookies-right{
+  order: 1;
+}
+
+.cookies-left  {
+    order: 2;
+  }
+}
+.cookie-title{
+font-size: 20px;
+}
+}
+@media (max-width: 560px) {
+  .cookies-title {
+    font-size: 60px;
+  span{
+    margin:0 2px;
+    margin-right: -15px;
+  top: 20px;
+  width: 80px;
+  height: 80px;
+  }
+  }
+}
+@media (max-width: 470px) {
+  .cookies-title {
+    font-size: 50px;
+  span{
+    margin:0 3px;
+    margin-right: -10px;
+  top: 18px;
+  width: 70px;
+  height: 70px;
+  }
+  }
+}
+@media (max-width: 400px) {
+  .cookies-title {
+    max-width: 300px;
+    text-align: start;
+  span{
+    margin:0 3px;
+    margin-right: -10px;
+    margin-top: -30px;
+  top: 15px;
+  width: 60px;
+  height: 60px;
+  }
+  }
+  .cookies-more-link{
+  font-size: 18px;
+  }
+}
+@media (max-width: 320px) {
+  .cookies-title {
+    font-size: 45px;
+    max-width: 270px;
+  span{
+    margin:0 3px;
+    margin-right: -10px;
+    margin-top: -30px;
+  top: 15px;
+  width: 60px;
+  height: 60px;
+  }
+  }
+}

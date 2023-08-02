@@ -1,0 +1,19 @@
+@mixin flexes($justify,$align){
+  display: flex;
+  justify-content:$justify;
+  align-items:$align;
+}
+@mixin text($size,$weight,$line,$color) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line;
+  color: $color;
+}
+@mixin button($btn-height,$btn-width,$size,$weight,$line,$color,$bg-color){
+  padding:$btn-height $btn-width;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line;
+  color: $color;
+  background-color: $bg-color;
+}

@@ -1,0 +1,224 @@
+.main-login {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-login-inner {
+  background-color: #fef228;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+.main-login-button-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.main-login-button-box button {
+  border: none;
+  font-family: 'DM Serif Display';
+}
+.login-active,
+.register-active {
+  background-color: #000;
+  color: #fef228;
+}
+.login-inactive,
+.register-inactive {
+  background-color: #0000;
+  color: #000;
+}
+.main-login-button {
+  padding: 3px 7px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+}
+.main-login-line {
+  display: block;
+  width: 1px;
+  height: 23px;
+  background-color: #000;
+  margin: 0 28px;
+}
+.main-register-button {
+  padding: 3px 7px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+}
+.main-login-form {
+  display: flex;
+  flex-direction: column;
+}
+.main-login-form input::placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+.main-login-email-input,
+.main-login-name-input {
+  background-color: #0000;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-bottom: 1px solid #000;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.main-login-password-input {
+  background-color: #0000;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-bottom: 1px solid #000;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.main-login-checkbox-parent {
+  display: flex;
+  align-items: center;
+}
+.main-login-checkbox {
+  margin-right: 5px;
+  margin-bottom: -3px;
+}
+.main-login-login-button {
+  margin-top: 20px;
+  background-color: #0000;
+  border: solid 1px #000;
+  padding: 6px 0;
+  border-radius: 50px;
+}
+.main-login-code-title {
+  margin: 30px;
+  padding-left: 10px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.main-login-reg-inner {
+  width: 600px;
+  padding: 40px;
+}
+.allow-box {
+  display: flex;
+  align-items: start;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.allow-box input {
+  margin-top: 1.2px;
+  margin-right: 5px;
+}
+.main-login-order-now {
+}
+.main-login-accept-info {
+  width: 512px;
+}
+.main-login-accept-info-link {
+  text-decoration: underline;
+  color: #000;
+}
+.main-login-http-cookiesv {
+}
+.main-login-accept-all {
+}
+.main-login-more-info-registr {
+  display: flex;
+  justify-content: space-between;
+}
+.main-login-link-billing,
+.main-login-link-payment {
+  text-decoration: underline;
+  color: #000;
+}
+.main-login-reg-button {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.main-login-exact-price{
+background-color: #fef228;
+position: absolute;
+right: 0;
+top: 300px;
+padding: 20px;
+}
+.main-login-exact-price-info{
+  max-width: 368px;
+  font-family:Arial,sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-right: 200px;
+}
+.checkbox{
+  display: none;
+  }
+  label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .main-desing-new-checkbox{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #fef223;
+    border: 1px solid #000;
+    margin-right: 10px;
+    position: relative;
+  }
+  .main-desing-new-checkbox::before{
+    content:'';
+    width: 14px;
+    height: 14px;
+    display: block;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+  }
+  .checkbox:checked + .main-desing-new-checkbox::before{
+    opacity: 1;
+  }
+@media (max-width: 600px) {
+  .main-login-accept-info {
+    width: 100%;
+  }
+  .main-login-reg-inner{
+  padding: 40px 20px;
+  }
+  .main-login-accept-info{
+  font-size: 13px;
+  }
+}
+@media (max-width:1815px){
+  .main-login-exact-price{
+    display: none;
+  }
+}
